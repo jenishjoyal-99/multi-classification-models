@@ -13,8 +13,8 @@ the trained models through an interactive Streamlit web application.
 - **Source:** Originally donated to the UCI Machine Learning Repository by
   Dr. William H. Wolberg, University of Wisconsin Hospitals; also available
   via `sklearn.datasets.load_breast_cancer`.
-- **Instances:** 569 (≥ 500 required ✔)
-- **Features:** 30 numeric features (≥ 12 required ✔) — mean, standard
+- **Instances:** 569 (≥ 500 required)
+- **Features:** 30 numeric features (≥ 12 required) — mean, standard
   error, and "worst" values of 10 real-valued measurements per cell nucleus
   (radius, texture, perimeter, area, smoothness, compactness, concavity,
   concave points, symmetry, fractal dimension).
@@ -23,7 +23,7 @@ the trained models through an interactive Streamlit web application.
 - **Split used:** 80% train / 20% test, stratified, `random_state=42`
 
 ## c. GitHub Repository Link
-`<PASTE YOUR GITHUB REPO LINK HERE AFTER YOU PUSH>`
+`https://github.com/jenishjoyal-99/multi-classification-models.git`
 
 ## d. Models Used
 
@@ -78,4 +78,4 @@ streamlit run app.py
 ```
 
 ## Live App
-`<PASTE YOUR STREAMLIT COMMUNITY CLOUD LINK HERE AFTER DEPLOYMENT>`
+`https://multi-classification-models-qkerqx2trseucwf3qyatre.streamlit.app/`

@@ -45,7 +45,7 @@ scaler, meta, models = load_artifacts()
 feature_names = meta["feature_names"]
 target_names = meta["target_names"]
 
-st.title("🔬 Breast Cancer Classification — Model Comparison")
+st.title("Breast Cancer Classification — Model Comparison")
 st.caption(
     "Dataset: Breast Cancer Wisconsin (Diagnostic) — 30 features, 569 instances, "
     "binary classification (malignant vs benign)."
