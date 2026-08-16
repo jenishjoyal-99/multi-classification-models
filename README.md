@@ -49,7 +49,7 @@ the dataset above, with features standardized via `StandardScaler`.
 | kNN | Strong performance, tied with Random Forest on Accuracy/F1. Because features are scaled before distance computation, the 5-nearest-neighbor vote reflects genuine local structure in the data. Slightly lower AUC than the ensemble/linear models since raw class probabilities from KNN are coarse (only 6 possible probability values with k=5). |
 | Naive Bayes | Solid, fast baseline despite the (unrealistic) assumption that all 30 features are conditionally independent given the class. Notably it has the second-highest AUC, meaning its probability ranking is very good even though its hard-label accuracy is a bit lower than Logistic Regression's. |
 | Random Forest (Ensemble) | Second-best overall, and the most robust: averaging 200 trees fixes the overfitting problem seen in the single Decision Tree and pushes AUC to 0.9932, the highest among all models. Marginally behind Logistic Regression only because this dataset is close to linearly separable, which favors a linear model. |
-| **Overall Winner for your dataset?** | **Logistic Regression** — highest Accuracy (0.9825), AUC (0.9954), F1 (0.9861) and MCC (0.9623). Random Forest is a close second and would likely be the safer choice on noisier or less linearly-separable data. |
+| **Overall Winner for this dataset?** | **Logistic Regression** — highest Accuracy (0.9825), AUC (0.9954), F1 (0.9861) and MCC (0.9623). Random Forest is a close second and would likely be the safer choice on noisier or less linearly-separable data. |
 
 ## Project Structure
 ```
